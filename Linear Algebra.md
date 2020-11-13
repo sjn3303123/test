@@ -134,7 +134,7 @@ Determinant of a square matrix
 
 $$
 det\left [ \begin{matrix}
-a & b\\ 
+a & b\\\\
 c & d
 \end{matrix} \right ] = ad - bc
 $$
@@ -148,21 +148,21 @@ example:
 
 $$
 A = \left [ \begin{matrix}
-1 & 5 & 0\\ 
-2 & 4 & -1\\
+1 & 5 & 0\\\\
+2 & 4 & -1\\\\
 0 & -2 & 0
 \end{matrix} \right ]
 
 det(A) = a_{11}det(A_{11}) - a_{12}det(A_{12}) + a_{13}det(A_{13}) 
-
+\\\\
 = 1 \times det \left [ \begin{matrix}
-4 & -1\\ 
+4 & -1\\\\
 -2 & 0
 \end{matrix} \right ] - 5 \times det \left [ \begin{matrix}
-2 & -1\\ 
+2 & -1\\\\
 0 & 0
 \end{matrix} \right ] + 0 \times det \left [ \begin{matrix}
-2 & 4\\ 
+2 & 4\\\\
 0 & -2
 \end{matrix} \right ]
 $$
@@ -172,11 +172,11 @@ Inverse matrix
 
 $$
 A = \left [ \begin{matrix}
-a & b\\ 
+a & b\\\\
 c & d
 \end{matrix} \right ] \rightarrow 
 A^{-1}= \frac{1}{ad-bc}\left [ \begin{matrix}
-d & -b\\ 
+d & -b\\\\
 -c & a
 \end{matrix} \right ]
 $$
@@ -186,9 +186,9 @@ Properties of inverse matrix
 
 $$
 (A^{-1})^{-1} = A
-
+\\\\
 (AB)^{-1} = B^{-1} A^{-1}
-
+\\\\
 (A^T)^{-1} = (A^{-1})^T
 $$
 
@@ -204,13 +204,13 @@ Properties of the orthogonal matrix
 
 $$
 A^{-1} = A^T
-
+\\\\
 A^{-T} = A
-
+\\\\
 A^T A = I
-
+\\\\
 A A^T = I
-
+\\\\
 det(A) = \pm 1
 $$
 
@@ -223,15 +223,15 @@ Properties of trace
 
 $$
 trace(A) = \sum_{i=1}^n \lambda_i \qquad \lambda_i = eig(A)
-
+\\\\
 trace(A) = trace(A^T)
-
+\\\\
 trace(AB) = trace(BA)
-
+\\\\
 trace(A+B) = trace(A) + trace(B)
-
+\\\\
 trace(ABC) = trace(BCA) = trace(CAB)
-
+\\\\
 a^Ta = trace(aa^T)
 $$
 
@@ -253,15 +253,15 @@ $$
 $\mathbf{A}$ is symmetric, then
 $$
 \mathbf{V} \mathbf{V}^T = \mathbf{I} \qquad (\mathrm{i.e.} \; \mathbf{V} \; \mathrm{is} \; \mathrm{orthogonal})
-
+\\\\
 \lambda_i \in \mathbb{R} \qquad (\mathrm{i.e.} \; \lambda_i \; \mathrm{is} \; \mathrm{real})
-
+\\\\
 trace(\mathbf{A}^p) = \sum_i \lambda_i^p
-
+\\\\
 eig(\mathbf{I} + c \mathbf{A}) = 1 + c \lambda_i
-
+\\\\
 eig(\mathbf{A} - c \mathbf{I}) = \lambda_i - c
-
+\\\\
 eig(\mathbf{A}^{-1}) = \lambda_i^{-1}
 $$
 
@@ -288,10 +288,10 @@ $\mathbf{A}: n \times m$
 
 $$
 \mathbf{A} = \mathbf{U} \mathbf{D} \mathbf{V}^T
-
+\\\\
 \mathbf{U} = \mathrm{eigenvectors} \; \mathrm{of} \; \mathbf{A} \mathbf{A}^T \qquad n \times n
-
+\\\\
 \mathbf{D} = \sqrt{diag(\mathrm{eig}(\mathbf{A} \mathbf{A}^T))} \qquad n \times m
-
+\\\\
 \mathbf{V} = \mathrm{eigenvectors} \; \mathrm{of} \; \mathbf{A}^T \mathbf{A} \qquad m \times m
 $$
