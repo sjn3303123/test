@@ -151,9 +151,7 @@ A = \left [ \begin{matrix}
 1 & 5 & 0\\\\
 2 & 4 & -1\\\\
 0 & -2 & 0
-\end{matrix} \right ]
-
-det(A) = a_{11}det(A_{11}) - a_{12}det(A_{12}) + a_{13}det(A_{13}) 
+\end{matrix} \right ] det(A) = a_{11}det(A_{11}) - a_{12}det(A_{12}) + a_{13}det(A_{13}) 
 \\\\
 = 1 \times det \left [ \begin{matrix}
 4 & -1\\\\
