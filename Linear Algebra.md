@@ -1,12 +1,9 @@
 #### Vector
 $$
 \mathbf{x} = \left [ \begin{matrix}
-x_1
-\\
-x_2
-\\
-\vdots 
-\\
+x_1 \
+x_2 \
+\vdots \
 x_n
 \end{matrix} \right ]
 $$
