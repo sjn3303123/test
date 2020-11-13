@@ -1,9 +1,9 @@
 #### Vector
 $$
 \mathbf{x} = \left [ \begin{matrix}
-x_1 \
-x_2 \
-\vdots \
+x_1 \\\
+x_2 \\\
+\vdots \\\
 x_n
 \end{matrix} \right ]
 $$
@@ -57,9 +57,9 @@ $$
 
 $$
 \mathbf{A} = \left [ \begin{matrix}
-a_{11} & a_{12} & \cdots & a_{1n}\\ 
-a_{21} & a_{22} & \cdots & a_{2n}\\ 
-\vdots & \vdots & \vdots & \vdots\\
+a_{11} & a_{12} & \cdots & a_{1n}\\\\
+a_{21} & a_{22} & \cdots & a_{2n}\\\\
+\vdots & \vdots & \vdots & \vdots\\\\
 a_{n1} & a_{n2} & \cdots & a_{nn}
 \end{matrix} \right ]
 $$
