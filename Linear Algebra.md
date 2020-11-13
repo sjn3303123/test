@@ -1,9 +1,9 @@
 #### Vector
 $$
 \mathbf{x} = \left [ \begin{matrix}
-x_1 \\\
-x_2 \\\
-\vdots \\\
+x_1 \\\\
+x_2 \\\\
+\vdots \\\\
 x_n
 \end{matrix} \right ]
 $$
@@ -35,9 +35,9 @@ $$
 
 $$
 \mathbf{A} = \left [ \begin{matrix}
-a_{11} & a_{12} & \cdots & a_{1d}\\ 
-a_{21} & a_{22} & \cdots & a_{2d}\\ 
-\vdots & \vdots & \vdots & \vdots\\
+a_{11} & a_{12} & \cdots & a_{1d}\\\\
+a_{21} & a_{22} & \cdots & a_{2d}\\\\
+\vdots & \vdots & \vdots & \vdots\\\\
 a_{n1} & a_{n2} & \cdots & a_{nd}
 \end{matrix} \right ]
 $$
@@ -46,9 +46,9 @@ $$
 
 $$
 \mathbf{I} = \left [ \begin{matrix}
-1 & 0 & \cdots & 0\\ 
-0 & 1 & \cdots & 0\\ 
-\vdots & \vdots & \vdots & \vdots\\
+1 & 0 & \cdots & 0\\\\
+0 & 1 & \cdots & 0\\\\
+\vdots & \vdots & \vdots & \vdots\\\\
 0 & 0 & \cdots & 1
 \end{matrix} \right ]
 $$
@@ -89,15 +89,15 @@ Properties of Matrix Multiplication
 
 $$
 A(B_1 B_2) = (A B_1) B_2 
-
+\\\\
 A(B_1 + B_2) = AB_1 + AB_2
-
+\\\\
 (B_1 + B_2)A = B_1A + B_2A
-
+\\\\
 c(A + B) = cA + cB
-
+\\\\
 c(AB) = (cA)B = A(cB)
-
+\\\\
 I_mA = A = AI_n
 $$
 
@@ -105,9 +105,9 @@ Transpose
 
 $$
 \mathbf{A^T} = \mathbf{{A}'} = \left [ \begin{matrix}
-a_{11} & a_{21} & \cdots & a_{n1}\\ 
-a_{12} & a_{22} & \cdots & a_{n2}\\ 
-\vdots & \vdots & \vdots & \vdots\\
+a_{11} & a_{21} & \cdots & a_{n1}\\\\
+a_{12} & a_{22} & \cdots & a_{n2}\\\\
+\vdots & \vdots & \vdots & \vdots\\\\
 a_{1d} & a_{2d} & \cdots & a_{nd}
 \end{matrix} \right ]
 $$
@@ -116,11 +116,11 @@ Properties of identity matrix
 
 $$
 (A^T)^T = A
-
+\\\\
 (A + B)^T = A^T + B^T
-
+\\\\
 (cA)^T = cA^T
-
+\\\\
 (AB)^T = B^T A^T
 $$
 
