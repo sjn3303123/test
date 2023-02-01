@@ -299,11 +299,8 @@ $\mathbf{A}: n \times m$
 
 
 $$
-\mathbf{A} = \mathbf{U} \mathbf{D} \mathbf{V}^T
-\\\\
-\mathbf{U} = \mathrm{eigenvectors} \quad \mathrm{of} \quad \mathbf{A} \mathbf{A}^T \qquad n \times n
-\\\\
-\mathbf{D} = \sqrt{diag(\mathrm{eig}(\mathbf{A} \mathbf{A}^T))} \qquad n \times m
-\\\\
+\mathbf{A} = \mathbf{U} \mathbf{D} \mathbf{V}^T \\\\
+\mathbf{U} = \mathrm{eigenvectors} \quad \mathrm{of} \quad \mathbf{A} \mathbf{A}^T \qquad n \times n \\\\
+\mathbf{D} = \sqrt{diag(\mathrm{eig}(\mathbf{A} \mathbf{A}^T))} \qquad n \times m \\\\
 \mathbf{V} = \mathrm{eigenvectors} \quad \mathrm{of} \quad \mathbf{A}^T \mathbf{A} \qquad m \times m
 $$
