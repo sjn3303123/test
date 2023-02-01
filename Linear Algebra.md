@@ -20,7 +20,8 @@ $$
 \mathbf{w} \cdot \mathbf{x} = |\mathbf{w}| |\mathbf{x}| \cos(\theta)
 $$
 
-Scalar product as projection: projection of vector $\mathbf{x}$ on a direction specified by vector $\mathbf{u}$ 
+Scalar product as projection: projection of vector   $\mathbf{x}$   on a direction specified by vector   $\mathbf{u}$  
+
 $$
 \frac{\mathbf{x} \cdot \mathbf{u}}{\left | \mathbf{u} \right |^{2}} \mathbf{u}
 $$
@@ -78,10 +79,12 @@ $$
 Multiplication
 
 $c$ is constant
+
 $$
 cA=(ca_{ij}): p \times q
 $$
-$A=(a_{ij}): p \times q$,$B=(b_{ij}): q \times r$
+
+$A=(a_{ij}): p \times q$,     $B=(b_{ij}): q \times r$
 
 $$
 AB = \left( \sum_{k=1}^q a_{ik} b_{kj} \right ): p \times r
@@ -146,6 +149,8 @@ $A=(a_{ij}): n \times n$
 $$
 det(A) = \sum_{j=1}^{n} (-1)^{1+j}a_{1j}det(A_{1j})
 $$
+
+
 example:
 
 $$
@@ -194,7 +199,7 @@ $$
 
 Orthogonal matrices
 
-If a square matrix $A$ is orthogonal, if and only if
+If a square matrix   $A$    is orthogonal, if and only if
 
 $$
 A^T A = I
@@ -219,6 +224,8 @@ Trace
 $$
 trace(A) = \sum_{i=1}^n a_{ii}
 $$
+
+
 Properties of trace
 
 $$
@@ -237,7 +244,7 @@ $$
 
 #### Eigenvalues and Eigenvectors
 
-Eigenvectors $\mathbf{v}_i$ and eigenvalues $\lambda_i$
+Eigenvectors   $\mathbf{v}_i$     and eigenvalues    $\lambda_i$    
 
 $$
 \mathbf{A} \mathbf{v}_i = \lambda_i \mathbf{v}_i
@@ -246,11 +253,15 @@ $$
 Properties
 
 $\mathbf{A}: n \times m, \qquad \mathbf{B}: m \times n$
+
+
 $$
 \mathrm{eig}(\mathbf{A} \mathbf{B}) = \mathrm{eig}(\mathbf{B} \mathbf{A})
 $$
 
-$\mathbf{A}$ is symmetric, then
+$\mathbf{A}$   is symmetric, then
+
+
 $$
 \mathbf{V} \mathbf{V}^T = \mathbf{I} \qquad (\mathrm{i.e.} \; \mathbf{V} \; \mathrm{is} \; \mathrm{orthogonal})
 \\\\
@@ -266,18 +277,22 @@ eig(\mathbf{A}^{-1}) = \lambda_i^{-1}
 $$
 
 Positive definite matrix
+
 $$
 x^T \mathbf{A} x > 0, \forall x \neq 0 \rightarrow \mathbf{A} \; \mathrm{is} \; \mathrm{positive} \; \mathrm{definite} \; \mathrm{matrix}
 $$
+
 Properties
 
-If $\mathbf{A}$ is positive definite, then $\mathbf{A}$ is invertible and $\mathbf{A}^{-1}$ is also positive definite
+If   $\mathbf{A}$   is positive definite, then   $\mathbf{A}$   is invertible and   $\mathbf{A}^{-1}$   is also positive definite
 
-If $\mathbf{A}$ is positive definite, then $A_{ii}>0, \forall i$
+If   $\mathbf{A}$   is positive definite, then   $A_{ii}>0, \forall i$  
 
-The matrix $\mathbf{A}$ is positive definite $\Leftrightarrow$ there exits an invertible matrix $\mathbf{B}$ such that $\mathbf{A} = \mathbf{B} \mathbf{B}^T$
+The matrix   $\mathbf{A}$   is positive definite   $\Leftrightarrow$   there exits an invertible matrix   $\mathbf{B}$   such that   $\mathbf{A} = \mathbf{B} \mathbf{B}^T$
 
-For a symmetric, positive matrix $\mathbf{A}$
+For a symmetric, positive matrix   $\mathbf{A}$
+
+
 $$
 \mathrm{eig}(\mathbf{A}^T \mathbf{A}) = \mathrm{eig}(\mathbf{A} \mathbf{A}^T)
 $$
@@ -285,6 +300,8 @@ $$
 #### Singular Value Decomposition
 
 $\mathbf{A}: n \times m$
+
+
 
 $$
 \mathbf{A} = \mathbf{U} \mathbf{D} \mathbf{V}^T
