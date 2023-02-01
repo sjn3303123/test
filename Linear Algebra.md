@@ -230,15 +230,20 @@ Properties of trace
 
 $$
 trace(A) = \sum_{i=1}^n \lambda_i \qquad \lambda_i = eig(A)
-\\\\
+
+
 trace(A) = trace(A^T)
-\\\\
+
+
 trace(AB) = trace(BA)
-\\\\
+
+
 trace(A+B) = trace(A) + trace(B)
-\\\\
+
+
 trace(ABC) = trace(BCA) = trace(CAB)
-\\\\
+
+
 a^Ta = trace(aa^T)
 $$
 
@@ -263,9 +268,9 @@ $\mathbf{A}$   is symmetric, then
 
 
 $$
-\mathbf{V} \mathbf{V}^T = \mathbf{I} \qquad (\mathrm{i.e.} \; \mathbf{V} \; \mathrm{is} \; \mathrm{orthogonal})
+\mathbf{V} \mathbf{V}^T = \mathbf{I} \qquad (\mathrm{i.e.} \quad \mathbf{V} \quad \mathrm{is} \quad \mathrm{orthogonal})
 \\\\
-\lambda_i \in \mathbb{R} \qquad (\mathrm{i.e.} \; \lambda_i \; \mathrm{is} \; \mathrm{real})
+\lambda_i \in \mathbb{R} \qquad (\mathrm{i.e.} \quad \lambda_i \quad \mathrm{is} \quad \mathrm{real})
 \\\\
 trace(\mathbf{A}^p) = \sum_i \lambda_i^p
 \\\\
@@ -279,7 +284,7 @@ $$
 Positive definite matrix
 
 $$
-x^T \mathbf{A} x > 0, \forall x \neq 0 \rightarrow \mathbf{A} \; \mathrm{is} \; \mathrm{positive} \; \mathrm{definite} \; \mathrm{matrix}
+x^T \mathbf{A} x > 0, \forall x \neq 0 \rightarrow \mathbf{A} \quad \mathrm{is} \quad \mathrm{positive} \quad \mathrm{definite} \quad \mathrm{matrix}
 $$
 
 Properties
@@ -306,9 +311,9 @@ $\mathbf{A}: n \times m$
 $$
 \mathbf{A} = \mathbf{U} \mathbf{D} \mathbf{V}^T
 \\\\
-\mathbf{U} = \mathrm{eigenvectors} \; \mathrm{of} \; \mathbf{A} \mathbf{A}^T \qquad n \times n
+\mathbf{U} = \mathrm{eigenvectors} \quad \mathrm{of} \quad \mathbf{A} \mathbf{A}^T \qquad n \times n
 \\\\
 \mathbf{D} = \sqrt{diag(\mathrm{eig}(\mathbf{A} \mathbf{A}^T))} \qquad n \times m
 \\\\
-\mathbf{V} = \mathrm{eigenvectors} \; \mathrm{of} \; \mathbf{A}^T \mathbf{A} \qquad m \times m
+\mathbf{V} = \mathrm{eigenvectors} \quad \mathrm{of} \quad \mathbf{A}^T \mathbf{A} \qquad m \times m
 $$
