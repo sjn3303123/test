@@ -68,11 +68,13 @@ $$
 
 Add
 
-$A=(a_{ij}): p \times q$,$B=(b_{ij}): p \times q$
+$A=(a_{ij}): p \times q$,  $B=(b_{ij}): p \times q$
 
 $$
 A + B = (a_{ij} + b_{ij}): p \times q
 $$
+
+
 Multiplication
 
 $c$ is constant
