@@ -94,15 +94,25 @@ Properties of Matrix Multiplication
 
 $$
 A(B_1 B_2) = (A B_1) B_2 
-\\\\
+$$
+
+$$
 A(B_1 + B_2) = AB_1 + AB_2
-\\\\
+$$
+
+$$
 (B_1 + B_2)A = B_1A + B_2A
-\\\\
+$$
+
+$$
 c(A + B) = cA + cB
-\\\\
+$$
+
+$$
 c(AB) = (cA)B = A(cB)
-\\\\
+$$
+
+$$
 I_mA = A = AI_n
 $$
 
@@ -121,11 +131,17 @@ Properties of identity matrix
 
 $$
 (A^T)^T = A
-\\\\
+$$
+
+$$
 (A + B)^T = A^T + B^T
-\\\\
+$$
+
+$$
 (cA)^T = cA^T
-\\\\
+$$
+
+$$
 (AB)^T = B^T A^T
 $$
 
@@ -191,9 +207,13 @@ Properties of inverse matrix
 
 $$
 (A^{-1})^{-1} = A
-\\\\
+$$
+
+$$
 (AB)^{-1} = B^{-1} A^{-1}
-\\\\
+$$
+
+$$
 (A^T)^{-1} = (A^{-1})^T
 $$
 
@@ -209,13 +229,21 @@ Properties of the orthogonal matrix
 
 $$
 A^{-1} = A^T
-\\\\
+$$
+
+$$
 A^{-T} = A
-\\\\
+$$
+
+$$
 A^T A = I
-\\\\
+$$
+
+$$
 A A^T = I
-\\\\
+$$
+
+$$
 det(A) = \pm 1
 $$
 
@@ -229,12 +257,27 @@ $$
 Properties of trace
 
 $$
-trace(A) = \sum_{i=1}^n \lambda_i \qquad \lambda_i = eig(A)\\\\
-trace(A) = trace(A^T)\\\\
-trace(AB) = trace(BA)\\\\
-trace(A+B) = trace(A) + trace(B)\\\\
-trace(ABC) = trace(BCA) = trace(CAB)\\\\
-a^Ta = trace(aa^T)\\\\
+trace(A) = \sum_{i=1}^n \lambda_i \qquad \lambda_i = eig(A)
+$$
+
+$$
+trace(A) = trace(A^T)
+$$
+
+$$
+trace(AB) = trace(BA)
+$$
+
+$$
+trace(A+B) = trace(A) + trace(B)
+$$
+
+$$
+trace(ABC) = trace(BCA) = trace(CAB)
+$$
+
+$$
+a^Ta = trace(aa^T)
 $$
 
 #### Eigenvalues and Eigenvectors
@@ -259,15 +302,25 @@ $\mathbf{A}$   is symmetric, then
 
 $$
 \mathbf{V} \mathbf{V}^T = \mathbf{I} \qquad (\mathrm{i.e.} \quad \mathbf{V} \quad \mathrm{is} \quad \mathrm{orthogonal})
-\\\\
+$$
+
+$$
 \lambda_i \in \mathbb{R} \qquad (\mathrm{i.e.} \quad \lambda_i \quad \mathrm{is} \quad \mathrm{real})
-\\\\
+$$
+
+$$
 trace(\mathbf{A}^p) = \sum_i \lambda_i^p
-\\\\
+$$
+
+$$
 eig(\mathbf{I} + c \mathbf{A}) = 1 + c \lambda_i
-\\\\
+$$
+
+$$
 eig(\mathbf{A} - c \mathbf{I}) = \lambda_i - c
-\\\\
+$$
+
+$$
 eig(\mathbf{A}^{-1}) = \lambda_i^{-1}
 $$
 
@@ -299,8 +352,17 @@ $\mathbf{A}: n \times m$
 
 
 $$
-\mathbf{A} = \mathbf{U} \mathbf{D} \mathbf{V}^T \\
-\mathbf{U} = \mathrm{eigenvectors} \quad \mathrm{of} \quad \mathbf{A} \mathbf{A}^T \qquad n \times n \\
-\mathbf{D} = \sqrt{diag(\mathrm{eig}(\mathbf{A} \mathbf{A}^T))} \qquad n \times m \\
+\mathbf{A} = \mathbf{U} \mathbf{D} \mathbf{V}^T 
+$$
+
+$$
+\mathbf{U} = \mathrm{eigenvectors} \quad \mathrm{of} \quad \mathbf{A} \mathbf{A}^T \qquad n \times n
+$$
+
+$$
+\mathbf{D} = \sqrt{diag(\mathrm{eig}(\mathbf{A} \mathbf{A}^T))} \qquad n \times m 
+$$
+
+$$
 \mathbf{V} = \mathrm{eigenvectors} \quad \mathrm{of} \quad \mathbf{A}^T \mathbf{A} \qquad m \times m
 $$
