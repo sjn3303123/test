@@ -229,22 +229,12 @@ $$
 Properties of trace
 
 $$
-trace(A) = \sum_{i=1}^n \lambda_i \qquad \lambda_i = eig(A)
-
-
-trace(A) = trace(A^T)
-
-
-trace(AB) = trace(BA)
-
-
-trace(A+B) = trace(A) + trace(B)
-
-
-trace(ABC) = trace(BCA) = trace(CAB)
-
-
-a^Ta = trace(aa^T)
+trace(A) = \sum_{i=1}^n \lambda_i \qquad \lambda_i = eig(A)\\\\
+trace(A) = trace(A^T)\\\\
+trace(AB) = trace(BA)\\\\
+trace(A+B) = trace(A) + trace(B)\\\\
+trace(ABC) = trace(BCA) = trace(CAB)\\\\
+a^Ta = trace(aa^T)\\\\
 $$
 
 #### Eigenvalues and Eigenvectors
